@@ -1,0 +1,15 @@
+<div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+
+"background-color": (
+    property: background-color,
+    class: bg,
+    values: map-merge(
+      $theme-colors,
+      (
+        "body": $body-bg,
+        "white": $white,
+        "transparent": transparent
+      )
+    )
+  ),
+  
